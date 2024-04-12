@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.0.0 (2024-04-12)
+
+
+### Features
+
+* expose source and sourceOrigin class properties ([#66](https://github.com/jclevine/embedded-app-sdk/issues/66)) ([f1590b3](https://github.com/jclevine/embedded-app-sdk/commit/f1590b3980abff50a354c89be5e347fb9878d8d4))
+
+
+### Bug Fixes
+
+* add back frameId to mock ([#97](https://github.com/jclevine/embedded-app-sdk/issues/97)) ([5984b39](https://github.com/jclevine/embedded-app-sdk/commit/5984b39fb83da54eb0fa5ddf9349d67bb5dd144d))
+* **deps:** update to uuid v9 ([#118](https://github.com/jclevine/embedded-app-sdk/issues/118)) ([879c150](https://github.com/jclevine/embedded-app-sdk/commit/879c15055076b12a8ca57c88fc3eddcc4759448a))
+* remove unnecessary FILE_EXTENSION_REGEX check from matchAndRewriteURL ([#65](https://github.com/jclevine/embedded-app-sdk/issues/65)) ([4616621](https://github.com/jclevine/embedded-app-sdk/commit/46166212f12e07ba08886ceabfb28d8f1767adf9))
+* remove unused frameId from mock ([#75](https://github.com/jclevine/embedded-app-sdk/issues/75)) ([05da8a9](https://github.com/jclevine/embedded-app-sdk/commit/05da8a9cae167b73386f502552adcfe9371f361e))
+* support ssr and non-browser environments ([#45](https://github.com/jclevine/embedded-app-sdk/issues/45)) ([2beca00](https://github.com/jclevine/embedded-app-sdk/commit/2beca00fa2f07be5a6c6837a95513e24c9de5c8d))
+
 ## [1.1.2](https://github.com/discord/embedded-app-sdk/compare/v1.1.1...v1.1.2) (2024-04-04)
 
 
